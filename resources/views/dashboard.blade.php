@@ -50,8 +50,8 @@
                 <!-- Logo / Mobile Menu -->
                 <div  class="col-lg-3 col-sm-3 ">
                     <div id="logo">
-                       <!-- <h1><a href="index.html"><img alt="logo" src="images/logo.png"/> -->
-						{{ Html::image('elec/images/logo.png','',array('class' => 'img-responsive img-centered')) }}
+                       <h1><a href="index.html">
+						{{ Html::image('img/logo.png','',array('alt' => 'logo')) }}
 
                        </a></h1>
                     </div>
