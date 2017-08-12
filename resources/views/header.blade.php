@@ -55,7 +55,7 @@
                     <!-- Logo / Mobile Menu -->
                     <div  class="col-lg-3 col-sm-3 ">
                         <div id="logo">
-                           <h1><a href="index.html"><img alt="logo" src="images/logo.png"/></a></h1>
+                           <h1><b>GO SEDEKAH</b></h1>
                         </div>
                     </div>
                     <!-- Navigation
@@ -73,19 +73,19 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Home</a>
+                                    <li class="active"><a href="#">Beranda</a>
                                     </li>
 
                                     <li><a href="#" >Pages</a>
                                     </li>
 
-                                    <li><a href="#">Contact</a>
+                                    <li><a href="#">Kontak</a>
                                     </li>
 
-                                    <li><a href="#">Register</a>
+                                    <li><a href="#">Daftar</a>
                                     </li>
 
-                                    <li><a href="#">Login</a>
+                                    <li><a href="#">Masuk</a>
                                     </li>
                                 </ul>
                             </div>
@@ -106,6 +106,7 @@
 <section class="footer_bottom">
     <div class="container">
         <div class="row">
+
             <div class="col-sm-6">
                 <p class="copyright">&copy;2017 Luwak Develop </p>
             </div>
