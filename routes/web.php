@@ -18,3 +18,19 @@ Route::get('/home', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/jual', function () {
+    return view('formjual');
+});
+
+Route::get('/beli', function () {
+    return view('formpembeli');
+});
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
