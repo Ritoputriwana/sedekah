@@ -9,15 +9,20 @@
           <div class="container">
               <div class="row">
                   <div class="col-sm-5 feature-block">
-                      <!-- <img class="img-responsive center-block" src="{{ asset('img/4/pantiasuhan.jpg') }}"> -->
+                      <img class="img-responsive center-block" src="{{ asset('elec/images/portfolio/full/portfolio_5.png') }}">
                   </div>
 
                   <div class="feature-block col-sm-7">
-                      <h4>Post Gambar <span>yuk :)</span></h4>
+                      <h4>Upload Gambar Barang <span>:)</span></h4>
                       <p>
+                        <form id="subscribe" action="mc.php" name="subscribe" method="post">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Keterangan">
+                            <input type="submit" value="Upload Gambar" id="submit" class="btn btn-default btn-lg button">
+                            <div class="pull-right">
+                                <input type="submit" value="Ajukan Pengambilan" id="submit" class="btn btn-success btn-lg button">
+                            </div>
+                        </form>
                       </p>
-                      <a class="btn btn-lg btn-default mrgb-20" href="">Sedekah Uang</a>
-                      <a class="btn btn-lg btn-success mrgb-20" href="">Sedekah Barang</a>
                   </div>
               </div>
           </div>
