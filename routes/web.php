@@ -38,3 +38,7 @@ Route::get('/penerima', function() {
 Route::get('/barang', function() {
 	return view ('daftar_barang');
 });
+
+Route::get('/penerima_sedekah', function() {
+	return view ('daftar_penerima');
+});

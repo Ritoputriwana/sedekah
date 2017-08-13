@@ -76,12 +76,17 @@
                                     @if(Auth::user()->admin==1)
                                         <li><a href="{{ URL::to('/beranda') }}">Beranda</a></li>
                                         <li><a href="{{ URL::to('/barang') }}" >Barang</a></li>
-                                        <li><a href="{{ URL::to('/penerima') }}" >Penerima Sedekah</a></li>
+                                        <li><a href="{{ URL::to('/penerima_sedekah') }}" >Penerima Sedekah</a></li>
+                                        <li><a href="{{ URL::to('/contact') }}">Kontak</a></li>
+                                    @elseif(Auth::user()->admin==0)
+                                        <li><a href="{{ URL::to('/beranda') }}">Beranda</a></li>
+                                        <li><a href="{{ URL::to('/barang') }}" >Barang</a></li>
+                                        <li><a href="{{ URL::to('/penerima_sedekah') }}" >Penerima Sedekah</a></li>
                                         <li><a href="{{ URL::to('/contact') }}">Kontak</a></li>
                                     @else
                                         <li><a href="{{ URL::to('/beranda') }}">Beranda</a></li>
                                         <li><a href="{{ URL::to('/barang') }}" >Barang</a></li>
-                                        <li><a href="{{ URL::to('/penerima') }}" >Penerima Sedekah</a></li>
+                                        <li><a href="{{ URL::to('/penerima_sedekah') }}" >Penerima Sedekah</a></li>
                                         <li><a href="{{ URL::to('/contact') }}">Kontak</a></li>
                                         
                                     @endif
