@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Electrify Responsive Multipurpose Template</title>
     <meta name="description" content="">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- CSS FILES -->
     {{ Html::style('elec/css/bootstrap.css') }}
@@ -31,22 +32,22 @@
     <header id="header">
         <div id="top-bar">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 top-info hidden-xs">
-                        <span><i class="fa fa-phone"></i>Phone: (123) 456-7890</span>
-                        <span><i class="fa fa-envelope"></i>Email: mail@example.com</span>
-                    </div>
-                    <div class="col-sm-4 top-info">
-                        <ul>
-                            <li><a href="" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
-                            <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="" class="my-google"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+                <table>
+                <tr>
+                <td>
+                     {{ Html::image('img/logo.png','',array(
+                                        'alt'=>'testimonial',
+                                        'wiidth'=>'80',
+                                        'height'=>'80')) }}
+                </td>
+                <td>
+                     <h1 style="color:white;"><b>GO SEDEKAH</b></h1>
+                </td>
+                </tr>
+                </table>
+                       
+                   
+                
             </div>
         </div>
         <div id="logo-bar">
@@ -54,9 +55,7 @@
                 <div class="row">
                     <!-- Logo / Mobile Menu -->
                     <div  class="col-lg-3 col-sm-3 ">
-                        <div id="logo">
-                           <h1><b>GO SEDEKAH</b></h1>
-                        </div>
+                       
                     </div>
                     <!-- Navigation
     ================================================== -->
@@ -81,11 +80,38 @@
 
                                     <li><a href="#">Kontak</a>
                                     </li>
+                                    <li>
 
-                                    <li><a href="#">Daftar</a>
-                                    </li>
 
-                                    <li><a href="#">Masuk</a>
+                                            <ul class="nav navbar-nav navbar-right">
+                                    <!-- Authentication Links -->
+                                    @if (Auth::guest())
+                                        <li><a href="{{ route('login') }}">Login</a></li>
+                                        <li><a href="{{ route('register') }}">Register</a></li>
+                                    @else
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                                {{ Auth::user()->name }} <span class="caret"></span>
+                                            </a>
+
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li>
+                                                    <a href="{{ route('logout') }}"
+                                                        onclick="event.preventDefault();
+                                                                 document.getElementById('logout-form').submit();">
+                                                        Logout
+                                                    </a>
+
+                                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                        {{ csrf_field() }}
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    @endif
+                                </ul>
+
+
                                     </li>
                                 </ul>
                             </div>

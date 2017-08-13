@@ -1,3 +1,4 @@
+
 @extends('header')
 
 @section('content')
@@ -11,7 +12,7 @@
                 <!-- <div class="fs_loader"></div> -->
                 <!-- <div class="slide"> -->
                     <!-- <img src="" width="1920" height="auto" data-in="fade" data-out="fade" /> -->
-                    {{ Html::image('elec/images/fraction-slider/base.jpg','',array('class' => 'img-responsive img-centered')) }}
+                    {{ Html::image('elec\images\fraction-slider/base_2.jpg') }}
 
                    <!--  <img src="images/fraction-slider/slider-boy.png" width="600" height="600" data-position="30,1100" data-in="left" data-out="right" data-delay="700"/> -->
                    
@@ -67,8 +68,8 @@
                                     <i class="fa fa-folder-open-o"></i>
                                 </div>
                                 <div class="service-content">
-                                    <h3>Clean &amp; Minimal</h3>
-                                    <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
+                                    <h3>Mudahnya Berbagi</h3>
+                                    <p>Go-Sedekah membantu Anda menyalurkan sedekah Anda dengan cara yang mudah</p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +79,7 @@
                                     <i class="fa fa-folder-o"></i>
                                 </div>
                                 <div class="service-content">
-                                    <h3>Branding Theme</h3>
+                                    <h3>Pelayanan yang Baik</h3>
                                     <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
                                 </div>
                             </div>
@@ -90,7 +91,7 @@
                                 </div>
                                 <div class="service-content">
                                     <h3>Modern Design</h3>
-                                    <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
+                                    <p>Go-Sedekah di design dengan baik dan mudah dipahami oleh user</p>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +105,7 @@
                                     <i class="fa fa-star-o"></i>
                                 </div>
                                 <div class="service-content">
-                                    <h3>Easy To Customize</h3>
+                                    <h3>Easy To Use</h3>
                                     <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
                                 </div>
                             </div>
@@ -143,18 +144,24 @@
                 <div class="row sub_content">
                     <div class="col-md-12">
                         <div class="dividerHeading">
-                            <h4><span><b>Barang Yang dijual/sedekah</b></span></h4>
+                            <h4><span><b>Koleksi Barang</b></span></h4>
                         </div>
                         <div id="recent-work-slider" class="owl-carousel">
                             <div >
                                 <figure class="touching ">
-                                      {{ Html::image('elec/images/clients/1.png') }}
-                                   
+                                     {{ Html::image('img/3/sepeda.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '230',
+                                        'width' => '230')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
                                 </figure>
                             </div>
                            <div class="recent-item box">
                                 <figure class="touching ">
-                                     {{ Html::image('elec/images/portfolio/portfolio_1.png','',array('class' => 'img-responsive img-centered')) }}
+                                     {{ Html::image('img/3/gitar.jgp','',array('class' => 'img-responsive img-centered')) }}
+                                     <br> IDR Rp.500.000,-
+                                     <br> Merk Yamaha
                                     <div class="option inner">
                                         <div>
                                             <span><h5>Mobile</h5></span>
@@ -164,7 +171,7 @@
                             </div>
                             <div class="recent-item box">
                                 <figure class="touching ">
-                                     {{ Html::image('elec/images/portfolio/portfolio_1.png','',array('class' => 'img-responsive img-centered')) }}
+                                     {{ Html::image('img/3/baju.jpg','',array('class' => 'img-responsive img-centered')) }}
                                     <div class="option inner">
                                         <div>
                                             <span><h5>Mobile</h5></span>
@@ -245,32 +252,41 @@
                 <div class="row  sub_content">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="dividerHeading">
-                            <h4><span><b>Bencana alam /orang yang sakit</b></span></h4>
+                            <h4><span><b>Calon Penerima Sedekah</b></span></h4>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                {{ Html::image('elec/images/teams/1.png','',array('alt' => 'profile img' )) }}
+                                {{ Html::image('img/4/nenek.jpg','',array('alt' => 'profile img' )) }}
                             </div>
                             <div class="team_prof">
-                                <h3 class="post-title">Nama orang<small>Asal/pekerjaan</small></h3>
-                                <p class="description">penjelasan sakitnya </p>
+                                <h3 class="post-title">Ibu Romlah<small>Malang</small></h3>
+                                <p class="description"> Sakit Paru-Paru Basah </p>
                             </div>
                         </div>
                     </div>
                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                {{ Html::image('elec/images/teams/1.png','',array('alt' => 'profile img' )) }}
+                                {{ Html::image('img/4/bencana.jpg','',array('alt' => 'profile img' )) }}
                             </div>
                             <div class="team_prof">
-                                <h3 class="post-title">Nama orang<small>Asal/pekerjaan</small></h3>
-                                <p class="description">penjelasan sakitnya </p>
+                                <h3 class="post-title">Ibu Rosidah<small>Yogyakarta/Buruh Tani</small></h3>
+                                <p class="description">Korban Gempa Bumi </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="our-team">
+                            <div class="pic">
+                                {{ Html::image('img/4/pantiasuhan.jpg','',array('alt' => 'profile img' )) }}
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="post-title">Panti Asuhan Darul Ulum<small>Banyuwangi</small></h3>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
                                 {{ Html::image('elec/images/teams/1.png','',array('alt' => 'profile img' )) }}
@@ -280,18 +296,7 @@
                                 <p class="description">penjelasan sakitnya </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                {{ Html::image('elec/images/teams/1.png','',array('alt' => 'profile img' )) }}
-                            </div>
-                            <div class="team_prof">
-                                <h3 class="post-title">Nama orang<small>Asal/pekerjaan</small></h3>
-                                <p class="description">penjelasan sakitnya </p>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -318,12 +323,12 @@
                             <div class="item">
                                 <div class="parallax-testimonial-item">
                                     <blockquote>
-                                        <p>Ayo berikan sisakan rezeki anda kepada orang yang membutuhkannya</p>
+                                        <p>Nikmati mudahnya sedekah dengan Go-Sedekah</p>
                                     </blockquote>
                                     <div class="parallax-testimonial-review">
                                         {{ Html::image('elec/images/testimonials/1.png','',array(
                                         'alt'=>'testimonial')) }}
-                                        <span>Novridah Alvi Hasanah</span>
+                                        <span>Novrindah Alvi Hasanah</span>
                                     </div>
                                 </div>
                             </div>
@@ -331,7 +336,7 @@
                             <div class="item">
                                  <div class="parallax-testimonial-item">
                                     <blockquote>
-                                        <p>Sedekah dapat mempertambah rejeki kalian</p>
+                                        <p>Salurkan sedekah Anda melalui Go-Sedekah</p>
                                     </blockquote>
                                     <div class="parallax-testimonial-review">
                                         {{ Html::image('elec/images/testimonials/1.png','',array(
