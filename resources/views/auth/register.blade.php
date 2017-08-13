@@ -64,9 +64,13 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                
                 <div class="panel-body">
-                    <form class="form-horizontal" method="POST" action="{{ route('register') }}">
+                    <div class="dividerHeading">
+                        <br><br>
+                        <h4><span><b> Register Form </b></span></h4>
+                    </div>
+                    <form class="form-horizontal" method="POST" action="{{ route('register') }}" id="registerform">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
@@ -137,7 +141,10 @@
                             </div>
                         </div>
                     </form>
+                <br><br>
                 </div>
+
+       
             </div>
         </div>
     </div>

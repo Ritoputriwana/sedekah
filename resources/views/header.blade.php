@@ -72,18 +72,21 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Beranda</a>
-                                    </li>
 
-                                    <li><a href="#" >Pages</a>
-                                    </li>
+                                    @if(Auth::user()->admin==1)
+                                        <li><a href="{{ URL::to('/beranda') }}">Beranda</a></li>
+                                        <li><a href="{{ URL::to('/barang') }}" >Barang</a></li>
+                                        <li><a href="{{ URL::to('/penerima') }}" >Penerima Sedekah</a></li>
+                                        <li><a href="{{ URL::to('/contact') }}">Kontak</a></li>
+                                    @else
+                                        <li><a href="{{ URL::to('/beranda') }}">Beranda</a></li>
+                                        <li><a href="{{ URL::to('/barang') }}" >Barang</a></li>
+                                        <li><a href="{{ URL::to('/penerima') }}" >Penerima Sedekah</a></li>
+                                        <li><a href="{{ URL::to('/contact') }}">Kontak</a></li>
+                                        
+                                    @endif
 
-                                    <li><a href="#">Kontak</a>
-                                    </li>
-                                    <li>
 
-
-                                            <ul class="nav navbar-nav navbar-right">
                                     <!-- Authentication Links -->
                                     @if (Auth::guest())
                                         <li><a href="{{ route('login') }}">Login</a></li>
@@ -91,7 +94,7 @@
                                     @else
                                         <li class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                                {{ Auth::user()->name }} <span class="caret"></span>
+                                                {{ Auth::user()->name }} 
                                             </a>
 
                                             <ul class="dropdown-menu" role="menu">

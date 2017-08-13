@@ -60,8 +60,12 @@
         <!--start info service-->
         <section class="info_service">
             <div class="container">
-                <h2>APA ITU SEDEKAH??</h2>
+                <br><br>
+                <center>
+                <h2><b> APA ITU SEDEKAH?? </b></h2><br>
                 <h4>Secara harfiyah, sedekah berasal dari kata shadaqa yang artinya benar. Sedekah adalah pemberian atau perlakukan dari seorang muslim kepada orang lain secara sukarela tanpa dibatasi oleh waktu dan jumlahnya sebagai bentuk kebajikan dalam rangka mengharap ridha Allah Swt. Dari penjelasan seperti ini, sedekah dapat kita pahami sebagai bukti kebenaran iman dalam berbagai bentuk perbuatan baik, hal ini karena iman harus selalu dibuktikan dengan amal shaleh atau amal yang baik sehingga setiap kebaikan yang dilakukan seorang muslim adalah sedekah, Rasulullah Saw bersabda: Tiap perbuatan baik adalah sedekah (HR. Baihaki).</h4>
+                </center>
+                <br><br><br><br>
             </div>
         </section>
     <!--end info service-->
@@ -141,22 +145,12 @@
                             <h4><span><b>Koleksi Barang</b></span></h4>
                         </div>
                         <div id="recent-work-slider" class="owl-carousel">
-                           <div >
-                                <figure class="touching ">
-                                     {{ Html::image('img/3/2.jpg','',array(
-                                        'class' => 'img-responsive img-centered',
-                                        'height'=> '900',
-                                        'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
-                                </figure>
-                            </div>
                             <div >
                                 <figure class="touching ">
                                      {{ Html::image('img/3/3.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200' )) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -166,7 +160,7 @@
                                      {{ Html::image('img/3/4.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -176,7 +170,7 @@
                                      {{ Html::image('img/3/5.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -186,7 +180,7 @@
                                      {{ Html::image('img/3/6.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -196,7 +190,7 @@
                                      {{ Html::image('img/3/7.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -206,7 +200,7 @@
                                      {{ Html::image('img/3/8.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -216,17 +210,7 @@
                                      {{ Html::image('img/3/9.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
-                                </figure>
-                            </div>
-                            <div >
-                                <figure class="touching ">
-                                     {{ Html::image('img/3/10.jpg','',array(
-                                        'class' => 'img-responsive img-centered',
-                                        'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -236,7 +220,7 @@
                                      {{ Html::image('img/3/11.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -246,7 +230,7 @@
                                      {{ Html::image('img/3/12.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -256,7 +240,7 @@
                                      {{ Html::image('img/3/13.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -266,7 +250,7 @@
                                      {{ Html::image('img/3/14.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -276,7 +260,7 @@
                                      {{ Html::image('img/3/15.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -286,7 +270,7 @@
                                      {{ Html::image('img/3/16.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -296,7 +280,7 @@
                                      {{ Html::image('img/3/17.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -306,7 +290,7 @@
                                      {{ Html::image('img/3/18.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -316,7 +300,7 @@
                                      {{ Html::image('img/3/19.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -326,7 +310,7 @@
                                      {{ Html::image('img/3/20.jpg','',array(
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
-                                        'width' => '300')) }}
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
@@ -335,51 +319,10 @@
                                 <figure class="touching ">
                                      {{ Html::image('img/3/21.jpg','',array(
                                         'class' => 'img-responsive img-centered',
-                                        'height'=> '300',
-                                        'width' => '300')) }}
+                                       'height'=> '300',
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
-                                </figure>
-                            </div>
-                            <div class="recent-item box">
-                                <figure class="touching ">
-                                    <img src="images/portfolio/portfolio_6.png" alt=""/>
-                                    <div class="option inner">
-                                        <div>
-                                            <h5>Touch and Swipe</h5>
-                                            <a href="images/portfolio/full/portfolio_6.png" class="fa fa-search mfp-image"></a>
-                                            <a href="portfolio_single.html" class="fa fa-link"></a>
-                                            <span>Mobile</span>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                           <div class="recent-item box">
-                                <figure class="touching ">
-                                     {{ Html::image('elec/images/portfolio/portfolio_1.png','',array('class' => 'img-responsive img-centered')) }}
-                                    <div class="option inner">
-                                        <div>
-                                            <span><h5>Mobile</h5></span>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div><div class="recent-item box">
-                                <figure class="touching ">
-                                     {{ Html::image('elec/images/portfolio/portfolio_1.png','',array('class' => 'img-responsive img-centered')) }}
-                                    <div class="option inner">
-                                        <div>
-                                            <span><h5>Mobile</h5></span>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div><div class="recent-item box">
-                                <figure class="touching ">
-                                     {{ Html::image('elec/images/portfolio/portfolio_1.png','',array('class' => 'img-responsive img-centered')) }}
-                                    <div class="option inner">
-                                        <div>
-                                            <span><h5>Mobile</h5></span>
-                                        </div>
-                                    </div>
                                 </figure>
                             </div>
                         </div>
@@ -397,7 +340,7 @@
                 <div class="row">
                     <div id="parallax-testimonial-carousel" class="parallax-testimonial carousel wow fadeInUp">
                         <div class="carousel-inner">
-                            <div class="active item">
+                            <div class=" item">
                                 <div class="parallax-testimonial-item">
                                     <blockquote>
                                         <p>Go Sedekah bisa meningkatkan pahala kita</p>
@@ -405,14 +348,14 @@
                                     <div class="parallax-testimonial-review">
                                         {{ Html::image('img/1/insan.jpg','',array(
                                         'class' => 'profile img',
-                                        'height' => '110',
-                                        'width' => '110' )) }}
+                                        'height' => '220',
+                                        'width' => '220' )) }}
                                         <span>Insan Afifah</span>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="active item">
                                 <div class="parallax-testimonial-item">
                                     <blockquote>
                                         <p>Nikmati mudahnya sedekah dengan Go-Sedekah</p>
@@ -420,8 +363,8 @@
                                     <div class="parallax-testimonial-review">
                                         {{ Html::image('img/1/rindah.jpg','',array(
                                         'class' => 'profile img',
-                                        'height' => '110',
-                                        'width' => '110' )) }}
+                                        'height' => '220',
+                                        'width' => '220' )) }}
                                         <span>Novrindah Alvi Hasanah</span>
                                     </div>
                                 </div>
@@ -435,8 +378,8 @@
                                     <div class="parallax-testimonial-review">
                                         {{ Html::image('img/1/rito.jpg','',array(
                                         'class' => 'profile img',
-                                        'height' => '110',
-                                        'width' => '110' )) }}
+                                        'height' => '220',
+                                        'width' => '220' )) }}
                                         <span>Rito Putriwana</span>
                                     </div>
                                 </div>
