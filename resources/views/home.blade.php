@@ -83,6 +83,7 @@
                                 <p class="description">Bapak Syakur adalah warga Kasembon menderita penyakit paru-paru basah sejak tahun 2013.</p>
                         </div>
                     </div>
+
                    
 
                     <!-- <div class="col-lg-3 col-md-3 col-sm-6">
@@ -102,6 +103,21 @@
                 <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
+                                {{ Html::image('img/4/7.jpg','',array(
+                                        'class' => 'profile img',
+                                        'height' => '150',
+                                        'width' => '150' )) }}
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="post-title">Mohammad Farisyah Arif<small>Turen</small></h3>
+                                <p class="description">Mohammad Farisyah Arif putra dari bapak Arif dan ibu Sutinah menderita penyakit busung lapar.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="our-team">
+                            <div class="pic">
                                 {{ Html::image('img/4/4.jpg','',array(
                                         'class' => 'profile img',
                                         'height' => '150',
@@ -114,9 +130,20 @@
                         </div>
                     </div>
 
-
-
-
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="our-team">
+                            <div class="pic">
+                                {{ Html::image('img/4/6.jpg','',array(
+                                        'class' => 'profile img',
+                                        'height' => '150',
+                                        'width' => '150' )) }}
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="post-title">Mbah Ruli<small>Ngantang</small></h3>
+                                <p class="description">Mbah Ruli menderita penyakit TBC paru sejak tahun 2016.</p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

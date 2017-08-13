@@ -31,195 +31,80 @@
                 <div class="item">
                     <div class="blog-item">
                         <div class="ImageWrapper">
-                             {{ Html::image('img/3/3.jpg' ) }}
+                             {{ Html::image('img/4/1.jpg' ) }}
                         </div>
                         <div class="blog-title">
-                            <h2>Baju Anak</h2>
-                            baju terbuat dari.. hargaaaasdfhjksdjfhksdfhksdhfksdhfksdhfksdhfkshdfksd
+                            <h2>Ibu Rosidah</h2>
+                            Ibu Rosidah adalah warga Dampit yang kehilangan tempat tinggal dan keluarga karena bencana gempa bumi. Ibu yang memiliki 5 orang anak ini harus ikhlas hidup sebatang kara. Rumah yang ia bangun bersama suami dan anak-anaknya kini rata dengan tanah.
                             <br><br>
                         </div><!-- end title -->
 
-                        <div class="blog-desc">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
-                                        </td>
-                                        <td>
-                                            Nama
-                                        </td>
-                                        <td>
-                                            &nbsp; : Rito Putriwana
-                                        </td>
-                                    </tr>
+                    </div><!-- end blog -->
+                </div><!-- end item -->
 
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            No telepon 
-                                        </td>
-                                        <td>
-                                            &nbsp;  : 903294230799492
-                                        </td>
-                                    </tr>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/4/2.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Korban Tanah Longsor</h2>
+                            Pujon merupakan daerah pegunungan yang rawan terhadap longsor. Beberapa waktu lalu hujan deras melanda daerah tersebut hingga terjadi tanah longsor. Tanah longsor mengakibatkan belasan kepala keluarga kehilangan tempat tinggal.
+                            <br><br>
+                        </div><!-- end title -->
 
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            Email 
-                                        </td>
-                                        <td>
-                                            &nbsp; : rito@gmail.com
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            Alamat 
-                                        </td>
-                                        <td>
-                                            &nbsp; : JL.Bandung no 5A
-                                        </td>
-                                    </tr>
-                                </table>
-                        </div><!-- end desc -->
                     </div><!-- end blog -->
                 </div><!-- end item -->
 
                  <div class="item">
                     <div class="blog-item">
                         <div class="ImageWrapper">
-                             {{ Html::image('img/3/3.jpg' ) }}
+                             {{ Html::image('img/4/3.jpg' ) }}
                         </div>
                         <div class="blog-title">
-                            <h2>Baju Anak</h2>
-                            baju terbuat dari.. hargaaaasdfhjksdjfhksdfhksdhfksdhfksdhfksdhfkshdfksd
+                            <h2>Bapak Syakur</h2>
+                            Bapak Syakur adalah warga buruh tani asal Kasembon yang menderita penyakit paru-paru basah sejak tahun 2013. Penyakit tersebut mengakibatkan badannya kurus dan tak bertenaga. Selain menyebabkan kurus, Bapak Syakur juga tidak bis bekerja keras untuk membayar sekolah kedua putrinya.
                             <br><br>
                         </div><!-- end title -->
-
-                        <div class="blog-desc">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
-                                        </td>
-                                        <td>
-                                            Nama
-                                        </td>
-                                        <td>
-                                            &nbsp; : Rito Putriwana
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            No telepon 
-                                        </td>
-                                        <td>
-                                            &nbsp;  : 903294230799492
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            Email 
-                                        </td>
-                                        <td>
-                                            &nbsp; : rito@gmail.com
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            Alamat 
-                                        </td>
-                                        <td>
-                                            &nbsp; : JL.Bandung no 5A
-                                        </td>
-                                    </tr>
-                                </table>
-                        </div><!-- end desc -->
                     </div><!-- end blog -->
                 </div><!-- end item -->
 
                <div class="item">
                     <div class="blog-item">
                         <div class="ImageWrapper">
-                             {{ Html::image('img/3/3.jpg' ) }}
+                             {{ Html::image('img/4/4.jpg' ) }}
                         </div>
                         <div class="blog-title">
-                            <h2>Baju Anak</h2>
-                            baju terbuat dari.. hargaaaasdfhjksdjjskdfhjksdhfkjsdhfksdhfksdhfkfhksdfhksdhfksdhfksdhfksdhfkshdfksd
+                            <h2>Korban Banjir</h2>
+                            Hujan lebat terjadi di Kecamatan Ampel Gading. Hujan yang turun selama 30 menit mengakibatkan air menggenang di beberapa desa. Banjir dengan ketinggian 2 meter tersebut telah menyusahkan warga. Warga terpaksa mengungsi untuk mengantisipasi datangnya banjir susulan dengan jumlah dan arus yang lebih lebat.
                             <br><br>
                         </div><!-- end title -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
 
-                        <div class="blog-desc">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
-                                        </td>
-                                        <td>
-                                            Nama
-                                        </td>
-                                        <td>
-                                            &nbsp; : Rito Putriwana
-                                        </td>
-                                    </tr>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/4/7.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Mohammad Farisyah Arif</h2>
+                            Mohammad Farisyah Arif putra dari bapak Arif dan ibu Sutinah menderita busung lapar. Keadaan ekonomi merupakan faktor utama Faris menderita penyakit tersebut. Bapak Arif hanya bekerja serabutan, sedangkan ibu Sutinah tidak dapat bekerja karena lumpuh.
+                            <br><br>
+                        </div><!-- end title -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
 
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            No telepon 
-                                        </td>
-                                        <td>
-                                            &nbsp;  : 903294230799492
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            Email 
-                                        </td>
-                                        <td>
-                                            &nbsp; : rito@gmail.com
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
-                                        </td>
-                                        <td>
-                                            Alamat 
-                                        </td>
-                                        <td>
-                                            &nbsp; : JL.Bandung no 5A
-                                        </td>
-                                    </tr>
-                                </table>
-                        </div><!-- end desc -->
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/4/6.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Mbah Ruli</h2>
+                            Mbah Ruli menderita sakit TBC paru sejak tahun 2016. Istrinya, Mbah Sarni meninggal pada tahun 2015. Mbah Ruli dan Mbah Sarni tidak memiliki keturunan, sehingga beliau tinggal sendirian di rumahnya yang terbuat dari kayu. Kini Mbah Ruli dirawat di rumah sakit NU di daerah Ngantang.
+                            <br><br>
+                        </div><!-- end title -->
                     </div><!-- end blog -->
                 </div><!-- end item -->
 

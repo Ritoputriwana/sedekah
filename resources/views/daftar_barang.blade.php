@@ -221,9 +221,7 @@
                                 </table>
                         </div><!-- end desc -->
                     </div><!-- end blog -->
-                </div><!-- end item -->
-
-             
+                </div><!-- end item --> 
 
 
                 
@@ -293,7 +291,541 @@
                 </div>
 
 
-                
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/8.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Tas Wanita</h2>
+                            Tas wanita terbuat dari kulit asli. Ringan dibawa. Cocok untuk bepergian jauh.
+                            <br><br>
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Rito Putriwana
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : ritoputri25@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/9.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Box Bayi</h2>
+                            Box Bayi terbuat dari kayu yang kuat dengan paduan warna yang menarik untuk bayi. Kayu yang ringan membuat box bayi mudah dipindahkan kemana saja.
+                            <br><br>
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Insan Afifah
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : afifahsaaan@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/13.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Sepeda Motor GL</h2>
+                            Sepeda Motor GL tahun keluar2007. Mesin masih baik dan nyaman digunakan.
+                            <br><br>
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Novrindah Alvi Hasanah
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : novrindahalvi@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/14.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Jaket</h2>
+                            Jaket kulit tebal dengan bahan yang hangat. Nyaman digunakan. Cocok untuk pria maupun wanita.
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Novrindah Alvi Hasanah
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : novrindahalvi@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/16.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Sepeda Phoenix</h2>
+                            Sepeda Phoenix berwarna pink. Kerangka masih baik. Warna menarik dan terdapat keranjang untuk menyimpan barang bawaan.
+                            <br><br>
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Rito Putriwana
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : ritoputri25@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/17.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Gitar Yamaha</h2>
+                            Gitar kayu Yamaha. Senar masih utuh, masih bisa digunakan. Tidak perludisetting ulang. Suara petikan merdu.
+                            <br><br>
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Insan Afifah
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : afifahsaaan@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/19.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Sepatu</h2>
+                            Sepatu berwarna putih. Bahan ringan. Cocok digunakan oleh pria maupun wanita.
+                            <br><br>
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Novrindah Alvi Hasanah
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : novrindahalvi@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/21.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Box Bayi</h2>
+                            Box Bayi dengan bahan kayu yang ringan. Warna menarik. COcok untuk diletakkan diruangan yang sempit maupun luas.
+                            <br><br>
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Novrindah Alvi Hasanah
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : novrindahalvi@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                
             </div><!-- end masonry_wrapper -->
