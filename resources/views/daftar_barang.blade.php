@@ -220,19 +220,6 @@
                                     </tr>
                                 </table>
                         </div><!-- end desc -->
-
-
-
-
-
-
-
-
-
-
-
-
-
                     </div><!-- end blog -->
                 </div><!-- end item -->
 
@@ -240,7 +227,7 @@
 
 
                 
-                   <div class="item">
+                <div class="item">
                     <div class="blog-item">
                         <div class="ImageWrapper">
                              {{ Html::image('img/3/7.jpg' ) }}
