@@ -36,5 +36,5 @@ Route::get('/penerima', function() {
 });
 
 Route::get('/barang', function() {
-	return view ('barang');
+	return view ('daftar_barang');
 });
