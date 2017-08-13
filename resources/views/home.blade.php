@@ -60,85 +60,79 @@
         <!--start info service-->
         <section class="info_service">
             <div class="container">
-                <div class="row sub_content">
-                    <div class="rs_box  wow bounceInRight" data-wow-offset="200">
-                        <div class="col-sm-4">
-                            <div class="serviceBox_1">
-                                <div class="service-icon">
-                                    <i class="fa fa-folder-open-o"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h3>Mudahnya Berbagi</h3>
-                                    <p>Go-Sedekah membantu Anda menyalurkan sedekah Anda dengan cara yang mudah</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="serviceBox_1">
-                                <div class="service-icon">
-                                    <i class="fa fa-folder-o"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h3>Pelayanan yang Baik</h3>
-                                    <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="serviceBox_1">
-                                <div class="service-icon">
-                                    <i class="fa fa-heart-o"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h3>Modern Design</h3>
-                                    <p>Go-Sedekah di design dengan baik dan mudah dipahami oleh user</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row sub_content">
-                    <div class="rs_box wow bounceInLeft" data-wow-offset="200">
-                        <div class="col-sm-4">
-                            <div class="serviceBox_1">
-                                <div class="service-icon">
-                                    <i class="fa fa-star-o"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h3>Easy To Use</h3>
-                                    <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="serviceBox_1">
-                                <div class="service-icon">
-                                    <i class="fa fa-comment-o"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h3>Multimedia Support</h3>
-                                    <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="serviceBox_1">
-                                <div class="service-icon">
-                                    <i class="fa fa-bell-o"></i>
-                                </div>
-                                <div class="service-content">
-                                    <h3>Documentation</h3>
-                                    <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h2>APA ITU SEDEKAH??</h2>
+                <h4>Secara harfiyah, sedekah berasal dari kata shadaqa yang artinya benar. Sedekah adalah pemberian atau perlakukan dari seorang muslim kepada orang lain secara sukarela tanpa dibatasi oleh waktu dan jumlahnya sebagai bentuk kebajikan dalam rangka mengharap ridha Allah Swt. Dari penjelasan seperti ini, sedekah dapat kita pahami sebagai bukti kebenaran iman dalam berbagai bentuk perbuatan baik, hal ini karena iman harus selalu dibuktikan dengan amal shaleh atau amal yang baik sehingga setiap kebaikan yang dilakukan seorang muslim adalah sedekah, Rasulullah Saw bersabda: Tiap perbuatan baik adalah sedekah (HR. Baihaki).</h4>
             </div>
         </section>
     <!--end info service-->
 
-    <!--Start recent work-->
+
+           <section class="team">
+            <div class="container">
+                <div class="row  sub_content">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="dividerHeading">
+                            <h4><span><b>Penerima Sedekah</b></span></h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="our-team">
+                            <div class="pic">
+                                {{ Html::image('img/4/nenek.jpg','',array(
+                                        'class' => 'profile img',
+                                        'height' => '150',
+                                        'width' => '150' )) }}
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="post-title">Ibu Romlah<small>Malang</small></h3>
+                                <p class="description"> Ibu Romlah adalah warga Sawojajar, Malang menderita sakit paru-paru basah sejak tahun 2013.</p>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="our-team">
+                            <div class="pic">
+                                {{ Html::image('img/4/bencana.jpg','',array(
+                                'class' => 'profile img',
+                                'height' => '150',
+                                'width' => '150' )) }}
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="post-title">Ibu Rosidah<small>Yogyakarta/Buruh Tani</small></h3>
+                                <p class="description">Ibu Rosidah adalah warga Bantul, Yogyakarta yang kehilangan tempat tinggal karena bencana gempa bumi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="our-team">
+                            <div class="pic">
+                                {{ Html::image('img/4/pantiasuhan.jpg','',array(
+                                    'class' => 'profile img',
+                                    'height' => '150',
+                                    'width' => '150' )) }}
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="post-title">Panti Asuhan Darul Ulum<small>Banyuwangi</small></h3>
+                                <p class="description">Panti Asuhan Darul Ulum terletak di Kecamatan Genteng. Memiliki sekitar 1000 anak yatim piatu.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="our-team">
+                            <div class="pic">
+                                {{ Html::image('elec/images/teams/1.png','',array('alt' => 'profile img' )) }}
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="post-title">Nama orang<small>Asal/pekerjaan</small></h3>
+                                <p class="description">penjelasan sakitnya </p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+
+<!--Start recent work-->
         <section>
             <div class="container">
                 <div class="row sub_content">
@@ -147,56 +141,204 @@
                             <h4><span><b>Koleksi Barang</b></span></h4>
                         </div>
                         <div id="recent-work-slider" class="owl-carousel">
-                            <div >
+                           <div >
                                 <figure class="touching ">
-                                     {{ Html::image('img/3/sepeda.jpg','',array(
+                                     {{ Html::image('img/3/2.jpg','',array(
                                         'class' => 'img-responsive img-centered',
-                                        'height'=> '230',
-                                        'width' => '230')) }}
+                                        'height'=> '900',
+                                        'width' => '200')) }}
                                    <br> IDR Rp. 150.000,-
                                    <br> Merk Phoenix
                                 </figure>
                             </div>
-                           <div class="recent-item box">
+                            <div >
                                 <figure class="touching ">
-                                     {{ Html::image('img/3/gitar.jgp','',array('class' => 'img-responsive img-centered')) }}
-                                     <br> IDR Rp.500.000,-
-                                     <br> Merk Yamaha
-                                    <div class="option inner">
-                                        <div>
-                                            <span><h5>Mobile</h5></span>
-                                        </div>
-                                    </div>
+                                     {{ Html::image('img/3/3.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
                                 </figure>
                             </div>
-                            <div class="recent-item box">
+                            <div >
                                 <figure class="touching ">
-                                     {{ Html::image('img/3/baju.jpg','',array('class' => 'img-responsive img-centered')) }}
-                                    <div class="option inner">
-                                        <div>
-                                            <span><h5>Mobile</h5></span>
-                                        </div>
-                                    </div>
+                                     {{ Html::image('img/3/4.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
                                 </figure>
                             </div>
-                            <div class="recent-item box">
+                            <div >
                                 <figure class="touching ">
-                                     {{ Html::image('elec/images/portfolio/portfolio_1.png','',array('class' => 'img-responsive img-centered')) }}
-                                    <div class="option inner">
-                                        <div>
-                                            <span><h5>Mobile</h5></span>
-                                        </div>
-                                    </div>
+                                     {{ Html::image('img/3/5.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
                                 </figure>
                             </div>
-                            <div class="recent-item box">
+                            <div >
                                 <figure class="touching ">
-                                     {{ Html::image('elec/images/portfolio/portfolio_1.png','',array('class' => 'img-responsive img-centered')) }}
-                                    <div class="option inner">
-                                        <div>
-                                            <span><h5>Mobile</h5></span>
-                                        </div>
-                                    </div>
+                                     {{ Html::image('img/3/6.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/7.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/8.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/9.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/10.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/11.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/12.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/13.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/14.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/15.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/16.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/17.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/18.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/19.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/20.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
+                                </figure>
+                            </div>
+                            <div >
+                                <figure class="touching ">
+                                     {{ Html::image('img/3/21.jpg','',array(
+                                        'class' => 'img-responsive img-centered',
+                                        'height'=> '300',
+                                        'width' => '300')) }}
+                                   <br> IDR Rp. 150.000,-
+                                   <br> Merk Phoenix
                                 </figure>
                             </div>
                             <div class="recent-item box">
@@ -247,59 +389,7 @@
         </section>
     <!--Start recent work-->
 
-           <section class="team">
-            <div class="container">
-                <div class="row  sub_content">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="dividerHeading">
-                            <h4><span><b>Calon Penerima Sedekah</b></span></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                {{ Html::image('img/4/nenek.jpg','',array('alt' => 'profile img' )) }}
-                            </div>
-                            <div class="team_prof">
-                                <h3 class="post-title">Ibu Romlah<small>Malang</small></h3>
-                                <p class="description"> Sakit Paru-Paru Basah </p>
-                            </div>
-                        </div>
-                    </div>
-                   <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                {{ Html::image('img/4/bencana.jpg','',array('alt' => 'profile img' )) }}
-                            </div>
-                            <div class="team_prof">
-                                <h3 class="post-title">Ibu Rosidah<small>Yogyakarta/Buruh Tani</small></h3>
-                                <p class="description">Korban Gempa Bumi </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                {{ Html::image('img/4/pantiasuhan.jpg','',array('alt' => 'profile img' )) }}
-                            </div>
-                            <div class="team_prof">
-                                <h3 class="post-title">Panti Asuhan Darul Ulum<small>Banyuwangi</small></h3>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                {{ Html::image('elec/images/teams/1.png','',array('alt' => 'profile img' )) }}
-                            </div>
-                            <div class="team_prof">
-                                <h3 class="post-title">Nama orang<small>Asal/pekerjaan</small></h3>
-                                <p class="description">penjelasan sakitnya </p>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </section>
+
 
     <!-- Parallax with Testimonial -->
         <section class="parallax parallax-1">
@@ -313,8 +403,10 @@
                                         <p>Go Sedekah bisa meningkatkan pahala kita</p>
                                     </blockquote>
                                     <div class="parallax-testimonial-review">
-                                        {{ Html::image('elec/images/testimonials/1.png','',array(
-                                        'alt'=>'testimonial')) }}
+                                        {{ Html::image('img/1/insan.jpg','',array(
+                                        'class' => 'profile img',
+                                        'height' => '110',
+                                        'width' => '110' )) }}
                                         <span>Insan Afifah</span>
                                     </div>
                                 </div>
@@ -326,8 +418,10 @@
                                         <p>Nikmati mudahnya sedekah dengan Go-Sedekah</p>
                                     </blockquote>
                                     <div class="parallax-testimonial-review">
-                                        {{ Html::image('elec/images/testimonials/1.png','',array(
-                                        'alt'=>'testimonial')) }}
+                                        {{ Html::image('img/1/rindah.jpg','',array(
+                                        'class' => 'profile img',
+                                        'height' => '110',
+                                        'width' => '110' )) }}
                                         <span>Novrindah Alvi Hasanah</span>
                                     </div>
                                 </div>
@@ -339,8 +433,10 @@
                                         <p>Salurkan sedekah Anda melalui Go-Sedekah</p>
                                     </blockquote>
                                     <div class="parallax-testimonial-review">
-                                        {{ Html::image('elec/images/testimonials/1.png','',array(
-                                        'alt'=>'testimonial')) }}
+                                        {{ Html::image('img/1/rito.jpg','',array(
+                                        'class' => 'profile img',
+                                        'height' => '110',
+                                        'width' => '110' )) }}
                                         <span>Rito Putriwana</span>
                                     </div>
                                 </div>
@@ -364,76 +460,7 @@
 
 
 
-
-
-
-
-
-
-        <section class="clients">
-            <div class="container">
-                <div class="row sub_content">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="dividerHeading">
-                            <h4><span>Supported By</span></h4>
-                        </div>
-
-                        <div class="our_clients">
-                            <ul class="client_items clearfix">
-                                <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html"  data-placement="bottom" data-toggle="tooltip" title="Client 1" >
-                                        {{ Html::image('elec/images/clients/1.png') }}
-                                    </a>
-                                </li>
-
-                                <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 2" >
-                                         {{ Html::image('elec/images/clients/2.png') }}
-                                    </a>
-                                </li>
-
-                                <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 3" >
-                                     {{ Html::image('elec/images/clients/3.png') }}
-                                    </a>
-                                </li>
-
-                                <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 4" >
-                                         {{ Html::image('elec/images/clients/4.png') }}
-                                    </a>
-                                </li>
-                            </ul><!-- / .client_items-->
-                             <ul class="client_items clearfix">
-                                <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html"  data-placement="bottom" data-toggle="tooltip" title="Client 1" >
-                                        {{ Html::image('elec/images/clients/1.png') }}
-                                    </a>
-                                </li>
-
-                                <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 2" >
-                                         {{ Html::image('elec/images/clients/2.png') }}
-                                    </a>
-                                </li>
-
-                                <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 3" >
-                                     {{ Html::image('elec/images/clients/3.png') }}
-                                    </a>
-                                </li>
-
-                                <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 4" >
-                                         {{ Html::image('elec/images/clients/4.png') }}
-                                    </a>
-                                </li>
-                            </ul><!-- / .client_items-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 
     </section><!--end wrapper-->
 
