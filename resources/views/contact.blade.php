@@ -5,6 +5,9 @@
 <!--start wrapper-->
 <section class="wrapper">
    
+
+
+
         <section class="contact_2">
             <div class="container">
                 <div class="row sub_content">
@@ -16,7 +19,17 @@
                                 <div class="dividerHeading">
                                     <h4><span>Info Kontak</span></h4>
                                 </div>
-                                <p><h5>Kami dari Luwak Developer</h5></p>
+                                  
+                                 <div class="col-md-4">
+                                   {{ Html::image('img/2/luwakk.png','',array(
+                                            'width'     =>'330',
+                                            'height'    =>'330',
+                                            'class' => 'img-responsive img-centered',
+                                    )) }}
+
+                                
+                                </div>
+
                                 <div class="col-md-4">
                                     <ul class="widget_info_contact">
                                     <li><i class="fa fa-map-marker"></i>
