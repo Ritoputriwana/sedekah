@@ -13,7 +13,7 @@
 
 // Route::get('/home', function () {
 //     return view('home');
-// });
+// }
 
 // Route::get('/contact', function () {
 //     return view('contact');
@@ -52,6 +52,12 @@ Route::group(['middleware'=>['web','auth']], function(){
 			return view('home1');
 		}
 	});
+
+  Route::get('/sedekahbarang', function () {
+    if(Auth::user()->admin==1){
+			return view('home');
+		}else{
+			return view('sedekahbarang');
+		}
+  });
 });
-
-

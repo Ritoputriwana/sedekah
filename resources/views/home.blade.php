@@ -8,14 +8,14 @@
         <!--Start Slider-->
         <div class="slider-wrapper">
             <div class="slider">
-                
+
                 <!-- <div class="fs_loader"></div> -->
                 <!-- <div class="slide"> -->
                     <!-- <img src="" width="1920" height="auto" data-in="fade" data-out="fade" /> -->
                     {{ Html::image('elec\images\fraction-slider/base_2.jpg') }}
 
                    <!--  <img src="images/fraction-slider/slider-boy.png" width="600" height="600" data-position="30,1100" data-in="left" data-out="right" data-delay="700"/> -->
-                   
+
 
                     <!-- <p class="slide-1" data-position="50,610" data-in="fade" data-out="fade" data-delay="800">fully responsive</p>
                     <p class="slide-1" data-position="100,560" data-in="fade" data-out="fade" data-delay="1200">Our latest designs </p>
@@ -357,11 +357,11 @@
         </section>
     <!-- end : Parallax with Testimonial -->
 
-       
 
-       
 
-     
+
+
+
 
 
 
@@ -381,7 +381,7 @@
                         <div class="our_clients">
                             <ul class="client_items clearfix">
                                 <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html"  data-placement="bottom" data-toggle="tooltip" title="Client 1" > 
+                                    <a href="services.html"  data-placement="bottom" data-toggle="tooltip" title="Client 1" >
                                         {{ Html::image('elec/images/clients/1.png') }}
                                     </a>
                                 </li>
@@ -391,13 +391,13 @@
                                          {{ Html::image('elec/images/clients/2.png') }}
                                     </a>
                                 </li>
-                                
+
                                 <li class="col-sm-3 col-md-3 col-lg-3">
                                     <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 3" >
                                      {{ Html::image('elec/images/clients/3.png') }}
                                     </a>
                                 </li>
-                                
+
                                 <li class="col-sm-3 col-md-3 col-lg-3">
                                     <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 4" >
                                          {{ Html::image('elec/images/clients/4.png') }}
@@ -406,7 +406,7 @@
                             </ul><!-- / .client_items-->
                              <ul class="client_items clearfix">
                                 <li class="col-sm-3 col-md-3 col-lg-3">
-                                    <a href="services.html"  data-placement="bottom" data-toggle="tooltip" title="Client 1" > 
+                                    <a href="services.html"  data-placement="bottom" data-toggle="tooltip" title="Client 1" >
                                         {{ Html::image('elec/images/clients/1.png') }}
                                     </a>
                                 </li>
@@ -416,13 +416,13 @@
                                          {{ Html::image('elec/images/clients/2.png') }}
                                     </a>
                                 </li>
-                                
+
                                 <li class="col-sm-3 col-md-3 col-lg-3">
                                     <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 3" >
                                      {{ Html::image('elec/images/clients/3.png') }}
                                     </a>
                                 </li>
-                                
+
                                 <li class="col-sm-3 col-md-3 col-lg-3">
                                     <a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 4" >
                                          {{ Html::image('elec/images/clients/4.png') }}
@@ -434,7 +434,7 @@
                 </div>
             </div>
         </section>
-        
+
     </section><!--end wrapper-->
 
 

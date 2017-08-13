@@ -45,9 +45,9 @@
                 </td>
                 </tr>
                 </table>
-                       
-                   
-                
+
+
+
             </div>
         </div>
         <div id="logo-bar">
@@ -55,7 +55,7 @@
                 <div class="row">
                     <!-- Logo / Mobile Menu -->
                     <div  class="col-lg-3 col-sm-3 ">
-                       
+
                     </div>
                     <!-- Navigation
     ================================================== -->
@@ -162,7 +162,7 @@
 {{ Html::script('elec/js/jquery-scrolltofixed-min.js') }}
 {{ Html::script('elec/js/main.js') }}
 
-  
+
 
     <!-- WARNING: Wow.js doesn't work in IE 9 or less -->
     <!--[if gte IE 9 | !IE ]><!-->
@@ -172,7 +172,6 @@
         new WOW().init();
     </script>
 
-   <!--  <![endif]--> -->
-
+   <!--  <![endif]--> 
 </body>
 </html>
