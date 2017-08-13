@@ -71,7 +71,7 @@
     <!--end info service-->
 
 
-           <section class="team">
+            <section class="team">
             <div class="container">
                 <div class="row  sub_content">
                     <div class="col-lg-12 col-md-12 col-sm-12">
@@ -82,44 +82,46 @@
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                {{ Html::image('img/4/nenek.jpg','',array(
-                                        'class' => 'profile img',
-                                        'height' => '150',
-                                        'width' => '150' )) }}
+                                {{ Html::image('img/4/1.jpg','',array(
+                                'class' => 'profile img',
+                                'height' => '150',
+                                'width' => '150' )) }}
                             </div>
                             <div class="team_prof">
-                                <h3 class="post-title">Ibu Romlah<small>Malang</small></h3>
-                                <p class="description"> Ibu Romlah adalah warga Sawojajar, Malang menderita sakit paru-paru basah sejak tahun 2013.</p>
+                                <h3 class="post-title">Ibu Rosidah<small>Dampit/Buruh Tani</small></h3>
+                                <p class="description">Ibu Rosidah adalah warga Dampit yang kehilangan tempat tinggal karena bencana gempa bumi.</p>
                             </div>
                         </div>
                     </div>
                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                {{ Html::image('img/4/bencana.jpg','',array(
+                                {{ Html::image('img/4/2.jpg','',array(
                                 'class' => 'profile img',
                                 'height' => '150',
                                 'width' => '150' )) }}
                             </div>
                             <div class="team_prof">
-                                <h3 class="post-title">Ibu Rosidah<small>Yogyakarta/Buruh Tani</small></h3>
-                                <p class="description">Ibu Rosidah adalah warga Bantul, Yogyakarta yang kehilangan tempat tinggal karena bencana gempa bumi.</p>
+                                <h3 class="post-title">Korban Tanah Longsor<small>Pujon</small></h3>
+                                <p class="description">Tanah longsor yang terjadi di Pujon menyebabkan warga kehilangan tempat tinggal dan keluarga.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                {{ Html::image('img/4/pantiasuhan.jpg','',array(
+                                {{ Html::image('img/4/3.jpg','',array(
                                     'class' => 'profile img',
                                     'height' => '150',
                                     'width' => '150' )) }}
                             </div>
                             <div class="team_prof">
-                                <h3 class="post-title">Panti Asuhan Darul Ulum<small>Banyuwangi</small></h3>
-                                <p class="description">Panti Asuhan Darul Ulum terletak di Kecamatan Genteng. Memiliki sekitar 1000 anak yatim piatu.</p>
+                                <h3 class="post-title">Bapak Syakur<small>Kasembon/Buruh Tani</small></h3>
+                                <p class="description">Bapak Syakur adalah warga Kasembon menderita penyakit paru-paru basah sejak tahun 2013.</p>
                         </div>
                     </div>
+                   
+
                     <!-- <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
@@ -131,6 +133,28 @@
                             </div>
                         </div>
                     </div> -->
+                </div>
+
+                <div class="row  sub_content">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="our-team">
+                            <div class="pic">
+                                {{ Html::image('img/4/4.jpg','',array(
+                                        'class' => 'profile img',
+                                        'height' => '150',
+                                        'width' => '150' )) }}
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="post-title">Korban Banjir<small>Ampel Gading</small></h3>
+                                <p class="description">Warga Ampel Gading harus mengungsi ke daerah aman untuk melindungi diri dari banjir yang sedang melanda daerah mereka.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
                 </div>
             </div>
         </section>
