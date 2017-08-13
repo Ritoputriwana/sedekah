@@ -35,7 +35,7 @@
                         </div>
                         <div class="blog-title">
                             <h2>Baju Anak</h2>
-                            baju terbuat dari.. hargaaaasdfhjksdjfhksdfhksdhfksdhfksdhfksdhfkshdfksd
+                            Baju terbuat dari kain katun. Tidak panas dan menyerap keringat. Warna cerah dan disukai anak-anak.
                             <br><br>
                         </div><!-- end title -->
 
@@ -49,7 +49,7 @@
                                             Nama
                                         </td>
                                         <td>
-                                            &nbsp; : Rito Putriwana
+                                            &nbsp; : Rito Putriwana P
                                         </td>
                                     </tr>
 
@@ -61,7 +61,7 @@
                                             No telepon 
                                         </td>
                                         <td>
-                                            &nbsp;  : 903294230799492
+                                            &nbsp;  : 081335594167
                                         </td>
                                     </tr>
 
@@ -73,7 +73,7 @@
                                             Email 
                                         </td>
                                         <td>
-                                            &nbsp; : rito@gmail.com
+                                            &nbsp; : ritoputri25@gmail.com
                                         </td>
                                     </tr>
 
@@ -85,7 +85,7 @@
                                             Alamat 
                                         </td>
                                         <td>
-                                            &nbsp; : JL.Bandung no 5A
+                                            &nbsp; : JL. Sunan Kalijaga Dalam No. 01
                                         </td>
                                     </tr>
                                 </table>
@@ -96,11 +96,11 @@
                  <div class="item">
                     <div class="blog-item">
                         <div class="ImageWrapper">
-                             {{ Html::image('img/3/3.jpg' ) }}
+                             {{ Html::image('img/3/4.jpg' ) }}
                         </div>
                         <div class="blog-title">
-                            <h2>Baju Anak</h2>
-                            baju terbuat dari.. hargaaaasdfhjksdjfhksdfhksdhfksdhfksdhfksdhfkshdfksd
+                            <h2>Arloji</h2>
+                            Arloji alba berwarna emas kombinasi putih. Bisa digunakan oleh pria dan wanita. Ringan dan anti air.
                             <br><br>
                         </div><!-- end title -->
 
@@ -114,7 +114,7 @@
                                             Nama
                                         </td>
                                         <td>
-                                            &nbsp; : Rito Putriwana
+                                            &nbsp; : Insan Afifah
                                         </td>
                                     </tr>
 
@@ -126,7 +126,7 @@
                                             No telepon 
                                         </td>
                                         <td>
-                                            &nbsp;  : 903294230799492
+                                            &nbsp;  : 085604981447
                                         </td>
                                     </tr>
 
@@ -138,7 +138,7 @@
                                             Email 
                                         </td>
                                         <td>
-                                            &nbsp; : rito@gmail.com
+                                            &nbsp; : afifahsaaan@gmail.com
                                         </td>
                                     </tr>
 
@@ -150,7 +150,7 @@
                                             Alamat 
                                         </td>
                                         <td>
-                                            &nbsp; : JL.Bandung no 5A
+                                            &nbsp; : JL. Letjen Sutoyo Dalam No. 11
                                         </td>
                                     </tr>
                                 </table>
@@ -161,11 +161,11 @@
                <div class="item">
                     <div class="blog-item">
                         <div class="ImageWrapper">
-                             {{ Html::image('img/3/3.jpg' ) }}
+                             {{ Html::image('img/3/5.jpg' ) }}
                         </div>
                         <div class="blog-title">
-                            <h2>Baju Anak</h2>
-                            baju terbuat dari.. hargaaaasdfhjksdjjskdfhjksdhfkjsdhfksdhfksdhfkfhksdfhksdhfksdhfksdhfksdhfkshdfksd
+                            <h2>Sepatu</h2>
+                            Sepatu Nike berwarna putih. Ringan dan sportif. Cocok digunakan saat sekolah maupun bepergian.
                             <br><br>
                         </div><!-- end title -->
 
@@ -179,7 +179,7 @@
                                             Nama
                                         </td>
                                         <td>
-                                            &nbsp; : Rito Putriwana
+                                            &nbsp; : Novrindah Alvi Hasanah
                                         </td>
                                     </tr>
 
@@ -191,7 +191,7 @@
                                             No telepon 
                                         </td>
                                         <td>
-                                            &nbsp;  : 903294230799492
+                                            &nbsp;  : 087856568123
                                         </td>
                                     </tr>
 
@@ -203,7 +203,7 @@
                                             Email 
                                         </td>
                                         <td>
-                                            &nbsp; : rito@gmail.com
+                                            &nbsp; : novrindahalvi@gmail.com
                                         </td>
                                     </tr>
 
@@ -215,15 +215,96 @@
                                             Alamat 
                                         </td>
                                         <td>
-                                            &nbsp; : JL.Bandung no 5A
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div><!-- end desc -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div><!-- end blog -->
+                </div><!-- end item -->
+
+             
+
+
+                
+                   <div class="item">
+                    <div class="blog-item">
+                        <div class="ImageWrapper">
+                             {{ Html::image('img/3/7.jpg' ) }}
+                        </div>
+                        <div class="blog-title">
+                            <h2>Stroller</h2>
+                            Stroller terbuat dari bahan yang baik, kuat dan tidak berkarat besinya.
+                            <br><br>
+                        </div><!-- end title -->
+
+                        <div class="blog-desc">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-user" style="color: #727CB6;"></i>&nbsp;
+                                        </td>
+                                        <td>
+                                            Nama
+                                        </td>
+                                        <td>
+                                            &nbsp; : Novrindah Alvi Hasanah
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-phone" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            No telepon 
+                                        </td>
+                                        <td>
+                                            &nbsp;  : 087856568123
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-envelope" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Email 
+                                        </td>
+                                        <td>
+                                            &nbsp; : novrindahalvi@gmail.com
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-map-marker" style="color: #727CB6;"></i> &nbsp;
+                                        </td>
+                                        <td>
+                                            Alamat 
+                                        </td>
+                                        <td>
+                                            &nbsp; : JL.Sunan Kalijaga No. 20
                                         </td>
                                     </tr>
                                 </table>
                         </div><!-- end desc -->
                     </div><!-- end blog -->
-                </div><!-- end item -->
+                </div>
 
-                
 
                 
 
