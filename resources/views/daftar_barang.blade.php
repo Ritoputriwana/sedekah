@@ -36,7 +36,7 @@
                         </div>
                         <div class="blog-title">
                             <h2>Baju Anak</h2>
-                            Baju terbuat dari kain katun. Tidak panas dan menyerap keringat. Warna cerah dan disukai anak-anak.
+                            Baju terbuat dari kain katun merk nevada. Tidak panas dan menyerap keringat. Warna cerah dan disukai anak-anak.
                             <br><br>
                         </div><!-- end title -->
 
@@ -429,7 +429,7 @@
                         </div>
                         <div class="blog-title">
                             <h2>Sepeda Motor GL</h2>
-                            Sepeda Motor GL tahun keluar2007. Mesin masih baik dan nyaman digunakan.
+                            Sepeda Motor GL tahun keluar 2007. Mesin masih baik dan nyaman digunakan.
                             <br><br>
                         </div><!-- end title -->
 
@@ -557,8 +557,8 @@
                              {{ Html::image('img/3/16.jpg' ) }}
                         </div>
                         <div class="blog-title">
-                            <h2>Sepeda Phoenix</h2>
-                            Sepeda Phoenix berwarna pink. Kerangka masih baik. Warna menarik dan terdapat keranjang untuk menyimpan barang bawaan.
+                            <h2>Sepeda Phoenix Star</h2>
+                            Sepeda Phoenix Star berwarna pink. Kerangka masih baik. Warna menarik dan terdapat keranjang untuk menyimpan barang bawaan.
                             <br><br>
                         </div><!-- end title -->
 

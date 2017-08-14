@@ -165,8 +165,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200' )) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Baju Anak Nevada
+                                   <br> IDR Rp.70.000,-
                                 </figure>
                             </div>
                             <div >
@@ -175,8 +175,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Arloji Alba
+                                   <br> IDR Rp.230.000,-
                                 </figure>
                             </div>
                             <div >
@@ -185,8 +185,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Sepatu Nike
+                                   <br> IDR Rp 160.000,-
                                 </figure>
                             </div>
                             <div >
@@ -195,8 +195,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Mobil Kijang Inova Silver
+                                   <br> IDR Rp 150.000.000,-
                                 </figure>
                             </div>
                             <div >
@@ -205,8 +205,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
+                                   <br> Stroller Bayi
                                    <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
                                 </figure>
                             </div>
                             <div >
@@ -215,8 +215,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Tas Wanita Gucci
+                                   <br> IDR Rp. 230.000,-
                                 </figure>
                             </div>
                             <div >
@@ -225,8 +225,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
+                                   <br> Box Bayi merk R2K
                                    <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
                                 </figure>
                             </div>
                             <div >
@@ -235,8 +235,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Tas Jinjing Wanita merk popolo
+                                   <br> IDR Rp. 70.000,-
                                 </figure>
                             </div>
                             <div >
@@ -245,8 +245,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
+                                  <br> Stroller bayi merk Kovino
                                    <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
                                 </figure>
                             </div>
                             <div >
@@ -255,8 +255,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Motor GL Max
+                                   <br> IDR Rp. 4.500.000,-
                                 </figure>
                             </div>
                             <div >
@@ -265,8 +265,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Jaket Kulit merk Crocodile
+                                   <br> IDR Rp. 120.000,-
                                 </figure>
                             </div>
                             <div >
@@ -275,8 +275,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Bass Electric Yamaha
+                                   <br> IDR Rp. 740.000,-
                                 </figure>
                             </div>
                             <div >
@@ -285,8 +285,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
+                                   <br> Sepeda Phoenix Star
                                    <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
                                 </figure>
                             </div>
                             <div >
@@ -295,8 +295,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Gitar Akustik Yamaha
+                                   <br> IDR Rp. 350.000,-
                                 </figure>
                             </div>
                             <div >
@@ -305,8 +305,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Mobil Box L-300
+                                   <br> IDR Rp. 13.000.000,-
                                 </figure>
                             </div>
                             <div >
@@ -315,8 +315,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Sepatu Airwalk
+                                   <br> IDR Rp. 200.000,-
                                 </figure>
                             </div>
                             <div >
@@ -325,8 +325,8 @@
                                         'class' => 'img-responsive img-centered',
                                         'height'=> '300',
                                         'width' => '200')) }}
-                                   <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
+                                   <br> Guci Tanah
+                                   <br> IDR Rp. 540.000,-
                                 </figure>
                             </div>
                             <div >
@@ -335,8 +335,8 @@
                                         'class' => 'img-responsive img-centered',
                                        'height'=> '300',
                                         'width' => '200')) }}
+                                   <br> Box Bayi merk R2K
                                    <br> IDR Rp. 150.000,-
-                                   <br> Merk Phoenix
                                 </figure>
                             </div>
                         </div>
