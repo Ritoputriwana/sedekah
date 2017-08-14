@@ -28,6 +28,7 @@
     <section class="content blog masonry_blog">
         <div class="container">
             <div class="mixed-container masonry_wrapper_blog row wow fadeInUp">
+            
                 <div class="item">
                     <div class="blog-item">
                         <div class="ImageWrapper">
@@ -750,7 +751,7 @@
                         <div class="ImageWrapper">
                              {{ Html::image('img/3/21.jpg' ) }}
                         </div>
-                        <div class="blog-title">
+                       <div class="blog-title">
                             <h2>Box Bayi</h2>
                             Box Bayi dengan bahan kayu yang ringan. Warna menarik. COcok untuk diletakkan diruangan yang sempit maupun luas.
                             <br><br>
